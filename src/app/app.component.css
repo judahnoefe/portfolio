@@ -1,0 +1,80 @@
+:host{
+  display: flex;
+  margin: 0;
+  padding: 0;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #fdf6ee;
+  font-family:'Trebuchet MS', 'Lucida Sans', Arial, sans-serif;
+  color: #16324f;
+}
+
+router-outlet{
+  flex: 1;
+}
+
+.navbar{
+  background-color: #16324f !important;
+  padding: 0.8rem 1.5rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 0;
+}
+
+.navbar .navbar-brand{
+  margin-left: 10px;
+  font-weight: bold;
+  color: #ff6633 !important;
+  font-size: 2.75rem;
+}
+
+.navbar .nav-link{
+  color: #a5c4d4 !important;
+  margin: 0 10px;
+  transition: color 0.3s ease;
+  font-size: 1.25rem;
+}
+
+.navbar .nav-link:hover{
+  color: #ff6633 !important;
+}
+
+.footer{
+  background-color: #16324f;
+  color: #a5c4d4;
+  text-align: center;
+  padding: 15px 10px;
+  font-size: 0.9rem;
+  margin-top: auto;
+}
+
+.btn-primary{
+  background-color: #2a628f;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover{
+  background-color: #ff6633;
+}
+
+.btn-outline-primary{
+  color: #2a628f;
+  border-color: #2a628f;
+  transition: all 0.3s ease;
+}
+
+.btn-outline-primary:hover{
+  background-color: #ff6633;
+  color: #fff;
+  border-color: #ff6633;
+}
+
+h1, h2, h3, h4{
+  color: #16324f;
+  font-weight: bold;
+}
+
+p{
+  color: #2a628f;
+  line-height: 1.6;
+}
